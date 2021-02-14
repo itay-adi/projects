@@ -1,5 +1,7 @@
 An automation which keeps a critical code segment from crashing, according to the user's demand
 
+-is based on scheduler
+
 Files:
 
 1. client.c: Conceptualize the client which call the wd functionality in order to watch his process
