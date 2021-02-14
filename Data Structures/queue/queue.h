@@ -3,15 +3,6 @@
 
 #include <stddef.h>	/* size_t */
 
-/* C file
-#include "slist.h"
-
-struct queue
-{
-    slist_t *slist;
-}
-*/
-
 typedef struct queue queue_t;
 
 /*---------------------------------------------------------------------------*/

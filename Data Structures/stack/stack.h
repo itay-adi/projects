@@ -1,15 +1,3 @@
-/* 
--------------------------------------------------------------------------------
-
-Operations on stack:
--   Push - adds an element to the stack.
--   Pop - removes the most recently added element that was not yet removed.
--   Peek - looks at the most recently added element on the stack and returns
-    a pointer to it.
-
--------------------------------------------------------------------------------
-*/
-
 #ifndef ILRD_STACK_H
 #define ILRD_STACK_H
 

@@ -20,7 +20,7 @@ On 32bit systems, will be 32 bits long.
 
 BitArray implemintation consist 3 files:
 
-bit_array.h: a header files
+bit_array.h: a header file
 bit_array.c: functions implemintation
 bit_array_test.c for a functionality testing
 

@@ -1,9 +1,6 @@
 /*
 * File Name - c_buffer.c
-* Description - Exercises from ds
 * Developer - Itay Adi Yosef
-* Reviewer - Noa Pilosof
-* Review Date - 18/6/20
 */
 
 #include <stdlib.h> /* malloc, free */

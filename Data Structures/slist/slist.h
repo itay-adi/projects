@@ -3,8 +3,6 @@
 * Developer - Itay Adi Yosef
 */
 
-/* 
-
 #ifndef ILRD_SLIST_H
 #define ILRD_SLIST_H
 

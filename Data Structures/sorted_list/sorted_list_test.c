@@ -1,9 +1,6 @@
 /*
 * File Name - sorted_list_test.c
-* Description - Exercises from ds
 * Developer - Itay Adi Yosef
-* Reviewer - Ori B
-* Review Date - 24/6/20
 */
 
 /***************************User's declarations********************************/

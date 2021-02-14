@@ -11,7 +11,7 @@ Find, insertion, and remove are O(log n), where n is the number of nodes in the 
 
 avl implemintation consist 3 files:
 
-avl.h: a header files
+avl.h: a header file
 avl.c: functions implemintation
 avl.c for a functionality testing
 
