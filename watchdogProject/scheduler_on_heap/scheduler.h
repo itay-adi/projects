@@ -1,41 +1,7 @@
-/* 
-*  scheduler is a tool used for creating schedulered tasks recurring or
-*   non-recurring.
-*
-*  Tasks can create other tasks, cancel them or add conditional-cancel rules 
-*
-*   
-*  Attributes:
-* -	Grows by demand.
-* -	User has a pointer to the scheduler.
-*
-* Main operations on scheduler:
-* -   SchCreate - Creates an empty scheduler
-* -   SchDestroy - Destroys asch given scheduler
-* -   SchRun - Hands control over to the app and timers start running, 
-*     until scheduler is empty.
-* -   SchStop - Stops a running scheduler
-*
-* -   Timer Start - Starts a new timer in the scheduler
-* -   Timer Cancel - Cancels an existing task in the scheduler 
-*
-*  
-*
-* Scheduler API
-* -   29/06/20 18:20 - Ver:  1.0  API team proposal
-* -   30/06/20 13:11 - Ver:  1.1  API team proposal :
-*                                 -1- in define ILRD change sch to SCH.
-*                                 -2- Sop function rename.
-*                                 -3- adding more discription to schtimerstart.
-*                                                         
-*
-*/
-
 #ifndef ILRD_SCH_H
 #define ILRD_SCH_H
 
 #include "uid.h" /* unique_id_t */
-
 
 typedef struct scheduler sch_t;
 
