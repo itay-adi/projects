@@ -4,11 +4,6 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeoutException;
 
-/*Developer: Itay Adi Yosef
- * Reviewer: Ori Komemi
- * Date: November 24th
- */
-
 public class ThreadPoolTest {
 
 	public static void main(String[] args) throws TimeoutException, InterruptedException {
