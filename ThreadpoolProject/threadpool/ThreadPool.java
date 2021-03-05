@@ -3,11 +3,6 @@ package il.co.ilrd.threadpool;
 import java.util.concurrent.*;
 import il.co.ilrd.waitable_pqueue.WaitablePriorityQueue;
 
-/*Developer: Itay Adi Yosef
- * Reviewer: Ori Komemi
- * Date: November 24th
- */
-
 public class ThreadPool implements Executor {
 	private WaitablePriorityQueue<Task<?>> wpq = new WaitablePriorityQueue<>(1024);
 	boolean isPaused = false;
