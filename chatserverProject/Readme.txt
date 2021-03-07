@@ -17,7 +17,7 @@ Mains:
 Classes:
 1. ChatMessageClient.java: Defining the ChatMessageClient class
 2. ChatProtocol.java: The chat protocol itself, which enables the user to:
-	-subsribe
+	-subscribe
 	-send public message
 	-disconnect
 
